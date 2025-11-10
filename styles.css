@@ -12,7 +12,7 @@
 
 .title{
     margin: 10px;
-    border: 10px;
+    border: 10px solid white;
     padding: 20px;
     color: orange;
     text-align: center;
@@ -31,4 +31,61 @@
     padding: 20px;
     margin: 10px;
     border: 10px;
+}
+
+.pizza_container{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 30px;
+    margin: 20px;
+    border: 20px;
+}
+
+.HomeLink {
+    text-align: left;
+    display: block;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 30px;
+    margin: 10px;
+    border: 10px;
+    text-decoration: underline orange
+}
+
+.detail {
+    display: block;
+    text-align: left;
+    padding: 30px;
+    margin: 20px;
+    border: 20px;
+}
+
+.ingredients {
+    font-weight: bold;
+    list-style-position: inside;
+    margin: 20px;
+}
+
+.ingredients li::marker{
+    color: orange;
+    font-weight: bold;
+}
+
+.steps {
+    font-weight: bold;
+    text-align: left;
+    list-style-position: inside;
+    margin: 20px;
+}
+
+.steps li::marker{
+    padding: 30px;
+    margin: 20px;
+    border: 20px;
+    color: orange;
+    font-weight: bold;
 }
