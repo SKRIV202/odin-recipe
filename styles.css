@@ -32,8 +32,9 @@
     margin: 10px;
     border: 10px;
 }
+/* Above is for index, below is for recipes */
 
-.pizza_container{
+.recipe_container{
     text-align: center;
     font-size: 25px;
     color: white;
@@ -78,7 +79,8 @@ h1 {
 .steps {
     font-weight: bold;
     text-align: left;
-    list-style-position: inside;
+    list-style-position: outside;
+    padding-left: 2em;
     margin: 20px;
 }
 
